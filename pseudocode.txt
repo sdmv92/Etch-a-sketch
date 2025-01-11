@@ -1,0 +1,7 @@
+Create one big empty div in html
+Make the big div into a flexbox
+Create inner div and append it to the big div
+Put create inner div and append div into a for loop
+get user input 'x' for number of divs to make
+Make x*x divs to make equal number of div on x and y axis
+

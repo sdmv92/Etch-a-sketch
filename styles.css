@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    border: 2px solid;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.box{
+    margin: 0;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+}
