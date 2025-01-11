@@ -17,6 +17,7 @@ body{
 
 .box{
     margin: 0;
+    opacity: 0;
 }
 
 button {

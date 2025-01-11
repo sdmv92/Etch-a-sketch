@@ -9,7 +9,8 @@ button.addEventListener("click", function(){
         box.style.width = (600/numberOfBoxes) + "px";
         box.style.height = (600/numberOfBoxes) + "px";
         container.appendChild(box)
-        box.addEventListener("mouseover",()=> { box.style.background = randomColor()})
+        box.addEventListener("mouseover",() =>  box.style.background = randomColor(), {once:true})
+        box.addEventListener("mouseover",() =>  box.style.opacity = Number(box.style.opacity)+0.1)
     }
     }else 
     alert("Invalid number")
